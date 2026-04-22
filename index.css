@@ -1,0 +1,37 @@
+:root {
+  --text: #b8b8c5;
+  --text-h: #f3f3ff;
+  --bg: #0f1020;
+  --border: #2e2f4d;
+  --card-bg: #17182e;
+  --accent: #f15bb5;
+  --accent-bg: rgba(241, 91, 181, 0.15);
+
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  width: 1040px;
+  max-width: calc(100% - 24px);
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+}
+
+h1 {
+  margin: 0;
+}

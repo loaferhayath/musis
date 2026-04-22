@@ -1,0 +1,16 @@
+{
+  "name": "fst-demo",
+  "version": "1.0.0",
+  "description": "Basic MERN event registration system",
+  "main": "app.js",
+  "scripts": {
+    "server": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "nodemailer": "^7.0.10"
+  }
+}
